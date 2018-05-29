@@ -21,3 +21,8 @@ new SbtMicroserviceJobBuilder('request-corporation-tax-number').
         withSCoverage().
         build(this as DslFactory)
 
+new SbtMicroserviceJobBuilder('request-corporation-tax-acceptance-tests').
+        withScalaStyle().
+        withSCoverage().
+        build(this as DslFactory)
+
